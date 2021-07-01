@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/juanptsanchez/profile-card-main)
-- Live Site URL: [Netlify]()
+- Live Site URL: [Netlify](https://stupefied-bardeen-cb79f1.netlify.app/)
 
 ### Built with
 
