@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]()
+- Solution URL: [Github](https://github.com/juanptsanchez/profile-card-main)
 - Live Site URL: [Netlify]()
 
 ### Built with
