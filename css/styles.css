@@ -3,7 +3,7 @@ VARIABLES FONTS / COLORS
 =========================================== */
 :root {
 /* FONTS */
---bodyFont: 'Kumbh Sans', sans-serif;
+--bodyFont: 'Roboto', sans-serif;
 
 /* PRIMARY COLORS */
 --veryDarkBlue: hsl(229, 23%, 23%);
@@ -29,9 +29,7 @@ GLOBAL
 ================================================ */
 body {
     font-family: var(--bodyFont);
-    background: #74ebd5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #CFD8DC;
 }
 .container {
     max-width: 1400px;
@@ -40,6 +38,8 @@ body {
 }
 h1 {
     color: var(--veryDarkBlue);
+    font-weight: 300;
+    font-size: 3rem;
 }
 
 /* ================================================
@@ -81,24 +81,24 @@ CARD
 }
 .card-header h2 {
     font-size: 2rem;
+    font-weight: 300;
     color: var(--veryDarkBlue);
     margin: 1rem 0;
 }
 .card-header h2 span {
     font-size: 2rem;
     color: var(--darkGray);
-    font-weight: 400;
-    margin-left: .5rem;
+    font-weight: 300;
 }
 .card-header p {
-    color: var(--darkGray);
-    font-weight: 400;
+    color: var(--veryDarkBlue);
+    font-weight: 300;
     font-size: 1.3rem;
     margin: 0 0 2rem 0;
 }
 hr {
-    border: 0 none rgb(238, 238, 238);
-    border-top: 2px solid rgb(238, 238, 238);
+    border: 0 none rgb(211, 211, 211);
+    border-top: 2px solid rgb(211, 211, 211);
     margin: 0;
 }
 
@@ -111,14 +111,15 @@ hr {
     text-align: center;
 }
 h3 {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color: var(--veryDarkBlue);
     margin: 1rem 0;
 }
 .card-txt p {
-    color: var(--darkGray);
-    letter-spacing: .2rem;
+    color: var(--veryDarkBlue);
+    font-weight: 100;
+    font-size: 1.2rem;
 }
 
 /* ================================================
