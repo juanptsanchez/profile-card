@@ -1,6 +1,4 @@
-# Frontend Mentor - 3-column preview card component solution
-
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+# Profile card
 
 ## Table of contents
 
@@ -8,7 +6,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
   - [Author](#author)
 
@@ -17,7 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
 
 ### Screenshot
 
@@ -26,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/juanptsanchez/profile-card-main)
-- Live Site URL: [Netlify](https://stupefied-bardeen-cb79f1.netlify.app/)
+- Solution URL: [Github](https://github.com/juanptsanchez/profile-card)
+- Live Site URL: [Netlify](https://profile-card-test.netlify.app/)
 
 ### Built with
 
@@ -36,10 +32,6 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-### What I learned
-
-Use Flexbox in my project. 
-
 ### Useful resources
 
 - [Google Fonts](https://fonts.google.com/) - This helped me select the font and use it in my project.
@@ -47,5 +39,4 @@ Use Flexbox in my project.
 
 ## Author
 
-- Website - [Github](https://github.com/juanptsanchez)
-- Frontend Mentor - [@juanptsanchez](https://www.frontendmentor.io/profile/juanptsanchez)
+- Juan Pablo Torres Sánchez - [Github](https://github.com/juanptsanchez)
