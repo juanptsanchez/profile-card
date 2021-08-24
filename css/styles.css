@@ -115,11 +115,19 @@ h3 {
     font-weight: 700;
     color: var(--veryDarkBlue);
     margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 .card-txt p {
     color: var(--veryDarkBlue);
-    font-weight: 100;
+    font-weight: 300;
     font-size: 1.2rem;
+}
+.icon {
+    color: var(--darkGray);
+    font-size: 1.7rem;
 }
 
 /* ================================================
