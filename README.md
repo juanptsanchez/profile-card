@@ -18,6 +18,7 @@ Users should be able to:
 ### Screenshot
 
 [Mobile](images/mobile.png)
+
 [Desktop](images/desktop.png)
 
 ### Links
