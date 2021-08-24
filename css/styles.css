@@ -7,10 +7,6 @@ VARIABLES FONTS / COLORS
 
 /* PRIMARY COLORS */
 --veryDarkBlue: hsl(229, 23%, 23%);
---darkGrayishBlue: hsl(227, 10%, 46%);
-
-/* NEUTRAL COLORS */
---darkGray: hsl(0, 0%, 59%);
 }
 
 /* ========================================= 
@@ -29,7 +25,6 @@ GLOBAL
 ================================================ */
 body {
     font-family: var(--bodyFont);
-    background-color: #CFD8DC;
 }
 .container {
     max-width: 1400px;
@@ -56,7 +51,7 @@ CARD
 ================================================ */
 .card {
     border-radius: 2rem;
-    background-color: #fff;
+    background-color: #E0E0E0;
     max-width: 340px;
     margin: 4rem auto;
 }
@@ -84,11 +79,6 @@ CARD
     font-weight: 300;
     color: var(--veryDarkBlue);
     margin: 1rem 0;
-}
-.card-header h2 span {
-    font-size: 2rem;
-    color: var(--darkGray);
-    font-weight: 300;
 }
 .card-header p {
     color: var(--veryDarkBlue);
@@ -126,7 +116,7 @@ h3 {
     font-size: 1.2rem;
 }
 .icon {
-    color: var(--darkGray);
+    color: #757575;
     font-size: 1.7rem;
 }
 
@@ -134,7 +124,12 @@ h3 {
 FOOTER
 ================================================ */
 .attribution { 
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 1.3rem; 
+    text-align: center;
+    color: var(--veryDarkBlue);
 }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: var(--veryDarkBlue); }
+.attribution a i { 
+    font-size: 2rem;
+    padding-left: .5rem; 
+}
